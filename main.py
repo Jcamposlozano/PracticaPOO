@@ -20,6 +20,13 @@ e2.setDiasLiquidados(30)
 empleados.append(e2) #Ingreso informacion en el arreglo
 
 
+e3 = Empleado()
+e3.setNombre('Fernando')
+e3.setApellido('Castro')
+e3.setSueldo(4000000)
+e3.setDiasLiquidados(30)
+empleados.append(e3) #Ingreso informacion en el arreglo
+
 #for i in empleados:
 #    print('********************')
 #    print(i)

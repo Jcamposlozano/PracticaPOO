@@ -9,3 +9,8 @@ Nombre: Angelica
  Apellido: Franco R
  Sueldo: 2500000
  Salario Devengado: 2500000.0
+******************
+Nombre: Fernando
+ Apellido: Castro
+ Sueldo: 4000000
+ Salario Devengado: 4000000.0000000005
