@@ -1,11 +1,26 @@
 from Empleado import *
 
-e1 = Empleado()
+empleados = []
 
+
+e1 = Empleado()
 e1.setNombre('Jonathan')
+#e1.nombre = 'Jonathan' #### ESTO ESTA MAL
 e1.setApellido('Campos Lozano')
 e1.setSueldo(1000000)
+e1.setDiasLiquidados(10)
+empleados.append(e1) #Ingreso informacion en el arreglo
 
-print(e1.getNombre())
-print(e1.getApellidos())
-print(e1.getSueldo())
+
+e2 = Empleado()
+e2.setNombre('Angelica')
+e2.setApellido('Franco R')
+e2.setSueldo(2500000)
+e2.setDiasLiquidados(30)
+empleados.append(e2) #Ingreso informacion en el arreglo
+
+for i in empleados:
+    print('********************')
+    print(i)
+
+
