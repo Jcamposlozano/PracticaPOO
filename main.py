@@ -19,8 +19,16 @@ e2.setSueldo(2500000)
 e2.setDiasLiquidados(30)
 empleados.append(e2) #Ingreso informacion en el arreglo
 
+
+#for i in empleados:
+#    print('********************')
+#    print(i)
+
+f = open('empleados.txt', 'w')
 for i in empleados:
-    print('********************')
-    print(i)
+    f.write('\n******************\n')
+    f.write(str(i))
+f.close()
+
 
 
